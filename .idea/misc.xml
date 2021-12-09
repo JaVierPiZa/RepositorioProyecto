@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alumnos/AndroidStudioProjects/R2/app/src/main/res/layout/activity_almuerzos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alumnos/AndroidStudioProjects/R2/app/src/main/res/layout/activity_ensaladas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alumnos/AndroidStudioProjects/R2/app/src/main/res/layout/activity_postres.xml" value="0.3625" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_almuerzos.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_ensalada.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_ensaladas.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_postres.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_receta.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R/app/src/main/res/layout/activity_sensor.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R2/app/src/main/res/layout/activity_firebase.xml" value="0.25" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R2/app/src/main/res/layout/activity_receta.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R2/app/src/main/res/layout/listapersonas.xml" value="0.26495726495726496" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/R2/app/src/main/res/menu/crud_menu.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/activity_almuerzos.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/activity_ensaladas.xml" value="0.5" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/activity_firebase.xml" value="0.3625" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/activity_main.xml" value="0.4989247311827957" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/activity_postres.xml" value="0.22" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/activity_receta.xml" value="0.33" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/insertar.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/layout/listapersonas.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/javier/AndroidStudioProjects/Recetasss/app/src/main/res/menu/crud_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

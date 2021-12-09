@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoalmuerzo"
+    tools:context=".Ensaladas">
+
+    <ImageButton
+        android:id="@+id/ensalada1"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="108dp"
+        android:onClick="onClick"
+        android:src="@drawable/cocinillas_3009748_115845590_1024x576__1_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/cocinillas_3009748_115845590_1024x576__1_"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/ensalada6"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="238dp"
+        android:onClick="Ensalada6"
+        android:src="@drawable/share_n61ytl29qw_eg_aalm_ep_10_platos_ensalada_rusa_de_camarones_hi_01"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/ensalada5"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:src="@drawable/share_n61ytl29qw_eg_aalm_ep_10_platos_ensalada_rusa_de_camarones_hi_01"
+        tools:srcCompat="@drawable/share_n61ytl29qw_eg_aalm_ep_10_platos_ensalada_rusa_de_camarones_hi_01" />
+
+    <ImageButton
+        android:id="@+id/ensalada5"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="238dp"
+        android:onClick="Ensalada5"
+        android:src="@drawable/ensalada_de_lentejas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/ensalada_de_lentejas"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/ensalada4"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="44dp"
+        android:onClick="Ensalda4"
+        android:src="@drawable/ensalada_baby_espinaca_frutillas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada2"
+        tools:src="@drawable/ensalada_baby_espinaca_frutillas"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/ensalada3"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="84dp"
+        android:onClick="Ensalada3"
+        android:src="@drawable/photo"
+        app:layout_constraintBottom_toTopOf="@+id/ensalada5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/photo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/ensalada2"
+        android:layout_width="118dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="Ensalada2"
+        android:src="@drawable/ensalada_de_atun_foto_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ensalada_de_atun_foto_principal"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="120dp"
+        android:onClick="Regresar"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ensalada1"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="Ensalada Con Pollo frito"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:text="Ensalada De Atun"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Ensalada de Poroto Negro"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:text="Ensalada de Espinaca y Frutilla"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada4" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="Ensalada de Lenteja"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="64dp"
+        android:text="Ensalada Rusa"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ensalada6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

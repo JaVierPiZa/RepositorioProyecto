@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Firebase"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayoutEditar"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    <EditText
+        android:id="@+id/inputNombre"
+        android:hint="Nombres..."
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+
+
+        ></EditText>
+        <EditText
+            android:id="@+id/inputTelefono"
+            android:hint="Telefono..."
+            android:paddingTop="10dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+
+            ></EditText>
+        <Button
+            android:id="@+id/btnCancelar"
+            android:textAllCaps="false"
+            android:text="Cancelar"
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/ListViewPersona"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

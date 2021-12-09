@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.r">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Recetas Del Cocinero Extremo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.R">
+        <activity
+            android:name=".Firebase"
+            android:exported="true" />
+        <activity
+            android:name=".SQL"
+            android:exported="true" />
+        <activity
+            android:name=".Sensor"
+            android:exported="true" />
+        <activity
+            android:name=".Postres"
+            android:exported="true" />
+        <activity
+            android:name=".Almuerzos"
+            android:exported="true" />
+        <activity
+            android:name=".Receta"
+            android:exported="true" />
+        <activity
+            android:name=".Ensaladas"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
